@@ -42,16 +42,16 @@ const bgImg = new Image()
 bgImg.src = './img/bgg3.png'
 
 const playerLeftImg = new Image()
-playerLeftImg.src = './img/pblue_left.png'
+playerLeftImg.src = './img/pyellow_left.png'
 
 const playerIdleLeftImg = new Image()
-playerIdleLeftImg.src = './img/pblue_idle_left.png'
+playerIdleLeftImg.src = './img/yellow_idle_left.png'
 
 const playerRightImg = new Image()
-playerRightImg.src = './img/pblue_right.png'
+playerRightImg.src = './img/pyellow_right.png'
 
 const playerIdleRightImg = new Image()
-playerIdleRightImg.src = './img/pblue_idle_right.png'
+playerIdleRightImg.src = './img/pyellow_idle_right.png'
 
 const play1Img = new Image()
 play1Img.src = './img/play1.png'
