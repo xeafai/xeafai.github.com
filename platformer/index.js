@@ -45,7 +45,7 @@ const playerLeftImg = new Image()
 playerLeftImg.src = './img/pyellow_left.png'
 
 const playerIdleLeftImg = new Image()
-playerIdleLeftImg.src = './img/yellow_idle_left.png'
+playerIdleLeftImg.src = './img/pyellow_idle_left.png'
 
 const playerRightImg = new Image()
 playerRightImg.src = './img/pyellow_right.png'
