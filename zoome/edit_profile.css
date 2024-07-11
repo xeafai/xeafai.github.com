@@ -83,9 +83,13 @@ body {
   letter-spacing: 1px;
 }
 
+.birthday_div {
+  width: auto;
+  height: auto;
+}
 
-.insta{
-    color: #749864;
+.insta {
+  color: #749864;
 }
 
 .label {
@@ -93,7 +97,6 @@ body {
   font-size: 20px;
   letter-spacing: 1px;
 }
-
 
 .input {
   width: 93%;
