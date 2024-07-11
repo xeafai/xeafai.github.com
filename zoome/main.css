@@ -103,7 +103,7 @@ body {
   border-radius: 5px;
   height: 25px;
   border: 4px solid #b6c7aa;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .next_button {
@@ -123,12 +123,13 @@ body {
 .next_div {
   margin: auto;
   width: fit-content;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .login_instead {
   color: #749864;
   margin-top: 10px;
+  margin-bottom: -0px;
   font-size: 18px;
   text-align: center;
 }
