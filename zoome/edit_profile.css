@@ -67,7 +67,7 @@ body {
 }
 
 .form_div {
-  padding: 20px;
+  padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -83,42 +83,9 @@ body {
   letter-spacing: 1px;
 }
 
-.birthday_input {
-  width: 80%;
-  margin-top: 5px;
-  font-family: Winkle, sans-serif;
-  color: #749864;
-  background-color: #eaf0e3;
-  font-size: 20px;
-  padding-left: 10px;
-  border-radius: 5px;
-  height: 23px;
-  border: 3px solid #b6c7aa;
-  margin-bottom: 15px;
-}
 
-.personality_input {
-  width: 100%;
-  margin-top: 5px;
-  font-family: Winkle, sans-serif;
-  color: #749864;
-  background-color: #eaf0e3;
-  font-size: 20px;
-  padding-left: 10px;
-  border-radius: 5px;
-  height: 23px;
-  border: 3px solid #b6c7aa;
-  margin-bottom: 15px;
-}
-
-.table_socials {
-  width: 100%;
-  margin-bottom: 30px;
-}
-
-.instagram_pic {
-  height: 32px;
-  margin-left: 5px;
+.insta{
+    color: #749864;
 }
 
 .label {
@@ -127,17 +94,6 @@ body {
   letter-spacing: 1px;
 }
 
-.instagram_input {
-  width: 93%;
-  font-family: Winkle, sans-serif;
-  color: #749864;
-  background-color: #eaf0e3;
-  font-size: 20px;
-  padding-left: 10px;
-  border-radius: 5px;
-  height: 23px;
-  border: 3px solid #b6c7aa;
-}
 
 .input {
   width: 93%;
@@ -150,6 +106,7 @@ body {
   height: 23px;
   border: 3px solid #b6c7aa;
   margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .song_input {
@@ -167,16 +124,17 @@ body {
 }
 
 .song_label {
-  color: #a79277;
+  color: #749864;
   font-size: 22px;
   text-align: center;
   letter-spacing: 1px;
   margin-bottom: -5px;
+  margin-top: 10px;
 }
 
 .song_detail_label {
-  color: #749864;
-  font-size: 20px;
+  color: #907b61;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
@@ -199,6 +157,7 @@ body {
   margin: auto;
   width: fit-content;
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .bottom_div {
