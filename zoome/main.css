@@ -1,0 +1,133 @@
+@font-face {
+  font-family: Winkle;
+  src: url("Winkle-Regular.ttf");
+}
+
+body {
+  background-color: #fff2e1;
+  font-family: Winkle, sans-serif;
+}
+
+.icon_div {
+  margin-top: 70px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.icon {
+  height: 60px;
+}
+
+.body_div {
+  border-radius: 20px;
+  border: 8px solid #ead8c0;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  width: 85%;
+  max-width: 500px;
+}
+
+.create_text {
+  font-size: 30px;
+  letter-spacing: 1px;
+  color: #a79277;
+  text-align: center;
+}
+
+.profile_div {
+  margin-top: -5px;
+  width: fit-content;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left_arrow,
+.right_arrow {
+  margin-bottom: 10px;
+  height: 35px;
+}
+
+.pfp_left {
+  margin-left: 10px;
+  margin-right: 35px;
+}
+
+.pfp_right {
+  margin-left: 35px;
+  margin-right: 10px;
+}
+
+.pfp_left,
+.pfp_right {
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.pfp_main {
+  position: relative;
+  margin-top: 20px;
+  height: 60px;
+}
+
+.circle {
+  height: 100px;
+  position: absolute;
+  margin-left: -85px;
+}
+
+.form_div {
+  margin-top: 40px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.label {
+  color: #a79277;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.input {
+  width: 93%;
+  margin-top: 5px;
+  font-family: Winkle, sans-serif;
+  color: #749864;
+  background-color: #eaf0e3;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 5px;
+  height: 25px;
+  border: 4px solid #b6c7aa;
+  margin-bottom: 20px;
+}
+
+.next_button {
+  font-family: "Winkle", sans-serif;
+  padding-top: 6px;
+  font-size: 31px;
+  border: 4px solid #a79277;
+  border-radius: 13px;
+  background-color: #ead8c0;
+  color: #907b61;
+  height: 45px;
+  width: 120px;
+  letter-spacing: 1px;
+}
+
+.next_div {
+  margin: auto;
+  width: fit-content;
+  margin-top: 20px;
+}
+
+.login_instead {
+  color: #749864;
+  margin-top: 10px;
+  font-size: 21px;
+  text-align: center;
+}
