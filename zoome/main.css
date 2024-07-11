@@ -28,6 +28,7 @@ body {
   background-color: white;
   width: 85%;
   max-width: 500px;
+  marign-bottom: 20px;
 }
 
 .create_text {
