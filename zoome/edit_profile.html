@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="edit_profile.css"
+    />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="icon_div">
+      <img src="zoome_icon.png" class="icon" />
+    </div>
+
+    <div class="body_div">
+      <p class="edit_text">EDIT YOUR PROFILE</p>
+      <div class="profile_div">
+        <table class="table">
+          <tr>
+            <td rowspan="2">
+              <img class="profile_pic" src="img/moose.png" />
+            </td>
+            <td><p class="name_text">yessa</p></td>
+          </tr>
+          <tr>
+            <td><p class="username_text">shaaarkai</p></td>
+          </tr>
+        </table>
+      </div>
+      <div class="form_div">
+        <form>
+          <table class="form_class">
+            <tr>
+              <td class="birthday_td">
+                <label for="name" class="table_label">Birthday</label><br />
+              </td>
+              <td>
+                <label for="name" class="table_label">Personality Type</label
+                ><br />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <input type="date" class="birthday_input" />
+              </td>
+              <td>
+                <input type="text" class="personality_input" />
+              </td>
+            </tr>
+          </table>
+
+          <label for="name" class="label">Socials</label><br />
+
+          <table class="table_socials">
+            <tr>
+              <td>
+                <img src="img/instagram.png" class="instagram_pic" />
+              </td>
+              <td>
+                <input type="text" class="instagram_input" />
+              </td>
+            </tr>
+          </table>
+
+          <p class="song_label">Displayed Song</p>
+          <br />
+          <label for="name" class="song_detail_label">Title</label><br />
+          <input type="text" class="song_input" />
+          <label for="name" class="song_detail_label">Artist</label><br />
+          <input type="text" class="song_input" />
+          <div class="next_div">
+            <input type="submit" value="SUBMIT" class="submit_button" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="bottom_div"></div>
+  </body>
+</html>
