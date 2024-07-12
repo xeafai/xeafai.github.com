@@ -27,7 +27,7 @@ body {
   margin-right: auto;
   background-color: white;
   width: 85%;
-  max-width: 500px;
+  max-width: 400px;
 }
 
 .edit_text {
@@ -142,6 +142,7 @@ body {
 }
 
 .submit_button {
+  cursor: pointer;
   font-family: "Winkle", sans-serif;
   padding-left: 20px;
   padding-right: 20px;
