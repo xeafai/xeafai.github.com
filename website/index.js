@@ -1,12 +1,12 @@
 const canvas = document.querySelector('canvas')
 const c = canvas.getContext('2d')
 
-canvas.width = 1280
-canvas.height = 720 
+canvas.width = window.innerWidth
+canvas.height = window.innerHeight
 
 var offset = {
-	x: -800,
-	y: -350
+	x: -1350,
+	y: -200
 }
 
 var falling = true
@@ -39,7 +39,7 @@ const skyImg = new Image()
 skyImg.src = './img/bg_blue.png'
 
 const bgImg = new Image()
-bgImg.src = './img/bgnew4.png'
+bgImg.src = './img/bgexpand.png'
 
 const playerLeftImg = new Image()
 playerLeftImg.src = './img/pyellow_left.png'
@@ -67,8 +67,8 @@ pause2Img.src = './img/pause2.png'
 
 const musicControl = new Sprite({
 	position : {
-		x: 258,
-		y: 210
+		x: 650,
+		y: 450
 	},
 	image: play1Img,
 });
@@ -77,7 +77,7 @@ const musicControl = new Sprite({
 const player = new Sprite({
 	position : {
 		x: canvas.width/2-24,
-		y: 470
+		y: 550
 	},
 	image: playerIdleRightImg,
 	frames:{
@@ -105,8 +105,8 @@ const sky = new Sprite({
 });
 
 var collisionsMap = []
-for (let i=0; i<collisions.length;i+=300){
-		collisionsMap.push(collisions.slice(i, i+300))
+for (let i=0; i<collisions.length;i+=500){
+		collisionsMap.push(collisions.slice(i, i+500))
 }
 
 var boundaries = []
